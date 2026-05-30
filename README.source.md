@@ -171,7 +171,7 @@
       ['Languages', ['JavaScript', 'TypeScript', 'Python', 'Java']],
       ['Frontend', ['React', 'Next.js', 'Tailwind CSS', 'Figma']],
       ['Backend', ['Node.js', 'Express.js', 'PostgreSQL', 'Prisma']],
-      ['Desktop, Mobile & Cloud', ['React Native', 'Expo', 'Electron', 'Supabase']]
+      ['Desktop • Mobile', ['React Native', 'Expo', 'Electron', 'Supabase']]
     ].map((group) => (
       <div style={{ display: 'flex', flexDirection: 'column', flex: 1, gap: 10, background: '#111111', borderRadius: 16, padding: 20, border: '1px solid rgba(249,115,22,0.18)' }}>
         <span style={{ color: '#FB923C', fontSize: 13, fontWeight: 900, letterSpacing: 0.2 }}>{group[0]}</span>
