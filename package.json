@@ -1,0 +1,15 @@
+{
+  "name": "github-profile",
+  "version": "1.0.0",
+  "description": "```aura width=860 height=260 link=\"https://github.com/islam890\" <div style={{ display: 'flex', width: '100%', height: '100%', fontFamily: 'Inter, sans-serif', position: 'relative', overflow: 'hidden', background: '#08080C', borderRadius: 18, padding: 32, border: '1px solid rgba(249,115,22,0.25)' }}>   <svg width=\"860\" height=\"260\" style={{ position: 'absolute', top: 0, left: 0 }}>     <defs>       <radialGradient id=\"g1\"><stop offset=\"0%\" stopColor=\"rgba(249,115,22,0.75)\" /><stop offset=\"70%\" stopColor=\"rgba(249,115,22,0)\" /></radialGradient>       <radialGradient id=\"g2\"><stop offset=\"0%\" stopColor=\"rgba(255,122,0,0.55)\" /><stop offset=\"70%\" stopColor=\"rgba(255,122,0,0)\" /></radialGradient>       <radialGradient id=\"g3\"><stop offset=\"0%\" stopColor=\"rgba(251,146,60,0.45)\" /><stop offset=\"70%\" stopColor=\"rgba(251,146,60,0)\" /></radialGradient>       <linearGradient id=\"borderGlow\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">         <stop offset=\"0%\" stopColor=\"#F97316\" />         <stop offset=\"50%\" stopColor=\"#FF7A00\" />         <stop offset=\"100%\" stopColor=\"#FB923C\" />         <animateTransform attributeName=\"gradientTransform\" type=\"rotate\" from=\"0 0.5 0.5\" to=\"360 0.5 0.5\" dur=\"8s\" repeatCount=\"indefinite\" />       </linearGradient>     </defs>     <ellipse cx=\"160\" cy=\"245\" rx=\"260\" ry=\"165\" fill=\"url(#g1)\">       <animate attributeName=\"cx\" values=\"120;420;120\" dur=\"9s\" repeatCount=\"indefinite\" />       <animate attributeName=\"opacity\" values=\"0.65;1;0.65\" dur=\"6s\" repeatCount=\"indefinite\" />     </ellipse>     <ellipse cx=\"520\" cy=\"245\" rx=\"240\" ry=\"150\" fill=\"url(#g2)\">       <animate attributeName=\"cx\" values=\"560;260;560\" dur=\"11s\" repeatCount=\"indefinite\" />       <animate attributeName=\"opacity\" values=\"0.55;0.95;0.55\" dur=\"7s\" repeatCount=\"indefinite\" />     </ellipse>     <ellipse cx=\"760\" cy=\"230\" rx=\"180\" ry=\"135\" fill=\"url(#g3)\">       <animate attributeName=\"rx\" values=\"150;230;150\" dur=\"8s\" repeatCount=\"indefinite\" />       <animate attributeName=\"opacity\" values=\"0.5;0.9;0.5\" dur=\"5s\" repeatCount=\"indefinite\" />     </ellipse>     <rect x=\"1\" y=\"1\" width=\"858\" height=\"258\" rx=\"18\" fill=\"none\" stroke=\"url(#borderGlow)\" strokeWidth=\"1.5\" />   </svg>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readme-aura": "^1.0.4"
+  }
+}
