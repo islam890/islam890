@@ -218,7 +218,7 @@
   <div style={{ display: 'flex', width: 390, gap: 10, alignItems: 'center', justifyContent: 'space-between', flexShrink: 0, marginLeft: 'auto', position: 'relative' }}>
     {[
       ['LinkedIn', 'https://www.linkedin.com/in/adrouche-ahmed-islam-1391aa341/'],
-      ['Email', 'mailto:islxmad@gmail.com'],
+      ['Email', 'mailto:ahmed_islam.adrouche@univ-constantine2.dz'],
       ['Portfolio', 'PUT_PORTFOLIO_LINK_HERE']
     ].map((btn, index) => (
       <a href={btn[1]} style={{ textDecoration: 'none' }}>
