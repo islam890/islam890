@@ -73,7 +73,7 @@
       <span style={{ fontSize: 15, color: '#A1A1AA', marginTop: 12, width: 525, lineHeight: 1.5 }}>Software Engineering Graduate building modern web, mobile, AI-powered and scalable applications.</span>
 
       <div style={{ display: 'flex', gap: 9, marginTop: 16, flexWrap: 'wrap' }}>
-        {['Web Development', 'Mobile Applications', 'Artificial Intelligence'].map((item) => (
+        {['Web Development', 'Desktop Software', 'Mobile Applications', 'AI Solutions'].map((item) => (
           <span style={{ fontSize: 12, color: '#FFFFFF', padding: '7px 12px', borderRadius: 999, background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(255,255,255,0.08)' }}>{item}</span>
         ))}
       </div>
@@ -82,7 +82,7 @@
     <div style={{ display: 'flex', flexDirection: 'column', gap: 12, justifyContent: 'center', marginLeft: 'auto', width: 228 }}>
       <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', minHeight: 88, padding: 18, borderRadius: 16, background: '#111111', border: '1px solid rgba(249,115,22,0.20)' }}>
         <span style={{ fontSize: 11, color: '#A1A1AA', textTransform: 'uppercase', letterSpacing: 1.1 }}>Focus</span>
-        <span style={{ fontSize: 18, fontWeight: 900, color: '#FFFFFF', marginTop: 7, lineHeight: 1.1 }}>Web • Mobile • AI</span>
+        <span style={{ fontSize: 18, fontWeight: 900, color: '#FFFFFF', marginTop: 7, lineHeight: 1.1 }}>Web • Desktop • Mobile • AI</span>
       </div>
       <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', minHeight: 88, padding: 18, borderRadius: 16, background: '#111111', border: '1px solid rgba(249,115,22,0.20)' }}>
         <span style={{ fontSize: 11, color: '#A1A1AA', textTransform: 'uppercase', letterSpacing: 1.1 }}>Based in</span>
@@ -95,10 +95,10 @@
 
 ```aura width=860 height=145
 <div style={{ display: 'flex', width: '100%', height: '100%', gap: 14, fontFamily: 'Inter, sans-serif' }}>
-  {[
+    {[
     ['Frontend', 'Modern Web Interfaces', 'Clean, responsive and user-focused UI development.'],
     ['Backend', 'APIs & Databases', 'Scalable backend logic, data models and integrations.'],
-    ['Mobile & AI', 'Smart App Experiences', 'Cross-platform apps with intelligent features.']
+    ['Desktop • Mobile • AI', 'Software Solutions', 'Building desktop, mobile and AI-powered applications across multiple platforms.']
   ].map((card, index) => (
     <div style={{ display: 'flex', flexDirection: 'column', flex: 1, justifyContent: 'center', gap: 6, padding: 20, background: '#111111', borderRadius: 18, border: '1px solid rgba(249,115,22,0.24)', position: 'relative', overflow: 'hidden' }}>
       <svg width="280" height="145" style={{ position: 'absolute', top: 0, left: 0 }}>
@@ -171,7 +171,7 @@
       ['Languages', ['JavaScript', 'TypeScript', 'Python', 'Java']],
       ['Frontend', ['React', 'Next.js', 'Tailwind CSS', 'Figma']],
       ['Backend', ['Node.js', 'Express.js', 'PostgreSQL', 'Prisma']],
-      ['Mobile & Cloud', ['React Native', 'Expo', 'Supabase', 'GitHub']]
+      ['Desktop, Mobile & Cloud', ['React Native', 'Expo', 'Electron', 'Supabase']]
     ].map((group) => (
       <div style={{ display: 'flex', flexDirection: 'column', flex: 1, gap: 10, background: '#111111', borderRadius: 16, padding: 20, border: '1px solid rgba(249,115,22,0.18)' }}>
         <span style={{ color: '#FB923C', fontSize: 13, fontWeight: 900, letterSpacing: 0.2 }}>{group[0]}</span>
